@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "MotionLink",
   tagline:
-    "Easily publish content to your blog, portfolio and doc websites from Notion",
+    "Publish content to your blog, portfolio and doc websites from Notion",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
