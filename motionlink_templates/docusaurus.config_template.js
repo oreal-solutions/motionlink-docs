@@ -39,8 +39,6 @@ const config = {
     ],
   ],
 
-  plugins: ["@docusaurus/plugin-google-analytics"],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
