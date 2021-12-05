@@ -39,9 +39,17 @@ const config = {
     ],
   ],
 
+  plugins: ["@docusaurus/plugin-google-analytics"],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      googleAnalytics: {
+        trackingID: "G-V7RLV8MYRV",
+        // Optional fields.
+        anonymizeIP: true, // Should IPs be anonymized?
+      },
+
       navbar: {
         title: "MotionLink",
         items: [
