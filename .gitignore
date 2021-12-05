@@ -21,4 +21,5 @@ yarn-error.log*
 
 # MotionLink
 docs/*
-!docs/tutorial_template.md
+blog/*
+!*/*_template.md
