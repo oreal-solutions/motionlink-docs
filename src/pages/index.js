@@ -31,8 +31,8 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Home`}
-      description="Description will go into a meta tag in <head />"
+      title={`MotionLink`}
+      description="Publish content to your blog, portfolio and doc websites from Notion"
     >
       <HomepageHeader />
       <main>
