@@ -17,6 +17,10 @@ const config = {
   organizationName: "oreal-solutions", // Usually your GitHub org/user name.
   projectName: "motionlink-cli", // Usually your repo name.
 
+  customFields: {
+    introDocId: "Getting started",
+  },
+
   presets: [
     [
       "@docusaurus/preset-classic",
