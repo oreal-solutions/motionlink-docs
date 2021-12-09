@@ -9,7 +9,7 @@ const config = {
   title: "MotionLink",
   tagline:
     "Publish content to your blog, portfolio and doc websites from Notion",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://motionlink.lytowl.com/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -60,7 +60,7 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/pricing", label: "Pricing", position: "left" },
           {
-            href: "http://motionlink-aec23.web.app",
+            href: "https://console.motionlink.lytowl.com/",
             label: "Console",
             position: "right",
           },
