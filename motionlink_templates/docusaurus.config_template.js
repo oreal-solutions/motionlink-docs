@@ -102,6 +102,14 @@ const config = {
                 label: "Email Us",
                 href: "mailto:products@lytowl.com",
               },
+              {
+                label: "Privacy Policy",
+                href: "https://lytowl.com/privacy_policy.html",
+              },
+              {
+                label: "Terms of Service",
+                href: "https://lytowl.com/motionlink/terms_of_service.html",
+              },
             ],
           },
         ],
