@@ -31,7 +31,7 @@ function PlansGrid() {
               </p>
               <Link
                 className={` button--secondary ${styles.startPlanButton}`}
-                to="https://motionlink-aec23.web.app/billing"
+                to="https://console.motionlink.lytowl.com/billing"
               >
                 Get started
               </Link>{" "}
