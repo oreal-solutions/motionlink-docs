@@ -8,6 +8,8 @@
 const markdownService = require("motionlink-cli/lib/services/markdown_service");
 const ObjectTransformers = markdownService.ObjectTransformers;
 
+const sanitize = require("sanitize-filename");
+
 /** @type {import("motionlink-cli/lib/models/config_models").TemplateRule[]} */
 const rules = [
   // To build the articles
@@ -118,10 +120,10 @@ const rules = [
         )}-${makeTwo(date.getDate())}`;
 
         // Assuming the title has no formatting.
-        page._title =
-          dateAsString +
-          "-" +
-          ObjectTransformers.transform_all(page.data.properties.Title.title);
+        page._title = dateAsString + "-" + sanitize(page.data.id);
+        page.otherData.titleText = ObjectTransformers.transform_all(
+          page.data.properties.Title.title
+        );
 
         page.otherData.titleText = ObjectTransformers.transform_all(
           page.data.properties.Title.title

@@ -6933,6 +6933,13 @@
   "resolved" "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
 
+"sanitize-filename@^1.6.3":
+  "integrity" "sha512-y/52Mcy7aw3gRm7IrcGDFx/bCk4AhRh2eI9luHOQM86nZsqwiRkkq2GekHXBBD+SmPidc8i2PqtYZl+pWJ8Oeg=="
+  "resolved" "https://registry.npmjs.org/sanitize-filename/-/sanitize-filename-1.6.3.tgz"
+  "version" "1.6.3"
+  dependencies:
+    "truncate-utf8-bytes" "^1.0.0"
+
 "save@^2.4.0":
   "integrity" "sha512-wd5L2uVnsKYkIUaK6i8Ie66IOHaI328gMF0MPuTJtYOjXgUolC33LSIk7Qr8WVA55QHaGwfiVS8a7EFIeGOR3w=="
   "resolved" "https://registry.npmjs.org/save/-/save-2.4.0.tgz"
@@ -7617,6 +7624,13 @@
   "resolved" "https://registry.npmjs.org/trough/-/trough-1.0.5.tgz"
   "version" "1.0.5"
 
+"truncate-utf8-bytes@^1.0.0":
+  "integrity" "sha1-QFkjkJWS1W94pYGENLC3hInKXys="
+  "resolved" "https://registry.npmjs.org/truncate-utf8-bytes/-/truncate-utf8-bytes-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "utf8-byte-length" "^1.0.1"
+
 "ts-essentials@^2.0.3":
   "integrity" "sha512-3IVX4nI6B5cc31/GFFE+i8ey/N2eA0CZDbo6n0yrz0zDX8ZJ8djmU1p+XRz7G3is0F3bB3pu2pAroFdAWQKU3w=="
   "resolved" "https://registry.npmjs.org/ts-essentials/-/ts-essentials-2.0.12.tgz"
@@ -7889,6 +7903,11 @@
   "version" "1.2.0"
   dependencies:
     "use-isomorphic-layout-effect" "^1.0.0"
+
+"utf8-byte-length@^1.0.1":
+  "integrity" "sha1-9F8VDExm7uloGGUFq5P8u4rWv2E="
+  "resolved" "https://registry.npmjs.org/utf8-byte-length/-/utf8-byte-length-1.0.4.tgz"
+  "version" "1.0.4"
 
 "util-deprecate@^1.0.1", "util-deprecate@^1.0.2", "util-deprecate@~1.0.1":
   "integrity" "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8="
