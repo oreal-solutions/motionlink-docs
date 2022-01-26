@@ -121,9 +121,6 @@ const rules = [
 
         // Assuming the title has no formatting.
         page._title = dateAsString + "-" + sanitize(page.data.id);
-        page.otherData.titleText = ObjectTransformers.transform_all(
-          page.data.properties.Title.title
-        );
 
         page.otherData.titleText = ObjectTransformers.transform_all(
           page.data.properties.Title.title
