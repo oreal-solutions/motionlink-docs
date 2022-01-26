@@ -18,7 +18,7 @@ const config = {
   projectName: "motionlink-cli", // Usually your repo name.
 
   customFields: {
-    introDocId: "Getting started",
+    introDocId: "How it works",
   },
 
   presets: [
@@ -53,7 +53,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "Getting started",
+            docId: "How it works",
             position: "left",
             label: "Tutorial",
           },
@@ -74,7 +74,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/Getting started",
+                to: "/docs/How it works",
               },
             ],
           },

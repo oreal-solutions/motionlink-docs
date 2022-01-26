@@ -106,10 +106,22 @@ const rules = [
       },
 
       map: (page, context) => {
+        function makeTwo(n) {
+          const str = `${n}`;
+          if (str.length < 2) return `0${str}`;
+          return str;
+        }
+
+        const date = new Date(page.data.created_time);
+        const dateAsString = `${date.getFullYear()}-${makeTwo(
+          date.getMonth() + 1
+        )}-${makeTwo(date.getDate())}`;
+
         // Assuming the title has no formatting.
-        page._title = ObjectTransformers.transform_all(
-          page.data.properties.Title.title
-        );
+        page._title =
+          dateAsString +
+          "-" +
+          ObjectTransformers.transform_all(page.data.properties.Title.title);
 
         page.otherData.titleText = ObjectTransformers.transform_all(
           page.data.properties.Title.title
