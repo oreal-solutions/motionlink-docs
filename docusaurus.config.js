@@ -58,7 +58,6 @@ const config = {
             label: "Tutorial",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          { to: "/pricing", label: "Pricing", position: "left" },
           {
             href: "https://console.motionlink.lytowl.com/",
             label: "Console",
