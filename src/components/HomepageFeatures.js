@@ -5,7 +5,7 @@ import styles from "./HomepageFeatures.module.css";
 const FeatureList = [
   {
     title: "Easy to Use",
-    Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("../../static/img/img_feat_easy_to_use.svg").default,
     description: (
       <>
         MotionLink is designed from the ground up to be easy to setup so you can
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: "Built for high traffic",
-    Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("../../static/img/img_feat_high_traffic.svg").default,
     description: (
       <>
         MotionLink can be integrated with any static site generator, allowing
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: "Powered by Notion",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("../../static/img/img_feat_powered_by_notion.svg").default,
     description: (
       <>
         Publish your content from the same Notion app you use to manage your
