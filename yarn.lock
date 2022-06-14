@@ -1596,10 +1596,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@notionhq/client@^0.4.4":
-  version "0.4.9"
-  resolved "https://registry.npmjs.org/@notionhq/client/-/client-0.4.9.tgz"
-  integrity sha512-GR76TrbETlXDsCTr4TotQ/XQzi05g1ydT9iJwyB+N5Brgq6rwYaJva87y90wdI+UwiWquC1DoEHWRe7zeGClUQ==
+"@notionhq/client@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@notionhq/client/-/client-1.0.4.tgz#405e9468576baf81019db4d791f4b52d091f4a57"
+  integrity sha512-m7zZ5l3RUktayf1lRBV1XMb8HSKsmWTv/LZPqP7UGC1NMzOlc+bbTOPNQ4CP/c1P4cP61VWLb/zBq7a3c0nMaw==
   dependencies:
     "@types/node-fetch" "^2.5.10"
     node-fetch "^2.6.1"
@@ -5388,12 +5388,12 @@ mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-motionlink-cli@^0.5.5:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/motionlink-cli/-/motionlink-cli-0.5.5.tgz#61e43214fbf0b62963f0e2a1dcd5507b4c9e37bb"
-  integrity sha512-1RuxTZXxZnJi8LNP5KH+tAo+E8IdYg3tslHgBBAoa0e6oc5lhMuFNYSlpEzviHt7vaf2DXcwPSq/DIhsFB6MBQ==
+motionlink-cli@^0.5.8:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/motionlink-cli/-/motionlink-cli-0.5.8.tgz#b56c0a0a65442d46e2303975d6c20ae2f1c7b602"
+  integrity sha512-0e3CWyXzT9IKvTd0+Iued4ieD5g/uSCw+SwP2X99QU+NKx37NhPv4nT3WWRF7Gtegvma+x5Zl857cEkUnCS6Ng==
   dependencies:
-    "@notionhq/client" "^0.4.4"
+    "@notionhq/client" "^1.0.4"
     axios "^0.23.0"
     get-relative-path "^1.0.2"
     mustache "^4.2.0"
