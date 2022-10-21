@@ -38,11 +38,11 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`MotionLink`}
       description="Publish content to your blog, portfolio and doc websites from Notion"
+      image="img/logo400.png"
     >
       <HomepageHeader />
       <main>
