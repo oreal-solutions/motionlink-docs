@@ -7,7 +7,7 @@ export default function Market() {
   return (
     <Layout
       title={`MotionLink installable sites`}
-      description="RIP to manual configurations. Install websites to your Notion with just a clik of a button."
+      description="RIP to manual configurations. Install websites on Notion with just a clik of a button."
       image="img/install-site.png"
     >
       <main>
