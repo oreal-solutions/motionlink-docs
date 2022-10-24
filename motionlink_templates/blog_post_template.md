@@ -1,5 +1,5 @@
 ---
-title: {{{otherData.titleText}}}
+title: "{{{otherData.titleText}}}"
 ---
 
 {{{otherData.content}}}
