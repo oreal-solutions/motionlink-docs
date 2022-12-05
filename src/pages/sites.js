@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "@docusaurus/Link";
 
 import Layout from "@theme/Layout";
 import { useWindowSize } from "../hooks/use_window_size";
@@ -11,13 +12,13 @@ export default function Market() {
       image="img/install-site.png"
     >
       <div className="container">
-        <h2>Sites are now available</h2>
+        <h2>Website installs are now available</h2>
         <p>
-          You can now install websites from the{" "}
+          You can now install websites on Notion with MotionLink. Get a website from the{" "}
           <a href="https://paystack.shop/motionlink-templates" target="_blank">
             Template Store
           </a>
-          .
+          , Install it and manage it from Notion. <Link to="/docs/Installing%20websites" >This tutorial</Link> shows how to install a website.
         </p>
       </div>
     </Layout>
