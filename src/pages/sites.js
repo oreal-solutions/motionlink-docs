@@ -10,14 +10,16 @@ export default function Market() {
       description="RIP to manual configurations. Install websites on Notion with just a click of a button."
       image="img/install-site.png"
     >
-      <main>
-        <iframe
-          title="waiting list form"
-          height="700px"
-          width="100%"
-          src="https://cdn.forms-content.sg-form.com/9cc2e0f5-5124-11ed-8adf-0a2928bda8e8"
-        />
-      </main>
+      <div className="container">
+        <h2>Sites are now available</h2>
+        <p>
+          You can now install websites from the{" "}
+          <a href="https://paystack.shop/motionlink-templates" target="_blank">
+            Template Store
+          </a>
+          .
+        </p>
+      </div>
     </Layout>
   );
 }
