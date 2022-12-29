@@ -24,9 +24,9 @@ function HomepageHeader() {
           <div className={styles.buttonSpacer}></div>
           <Link
             className="button button--secondary button--lg"
-            to="https://paystack.shop/motionlink-templates"
+            to="https://github.com/marketplace/motionlink"
           >
-            Shop
+            Install
           </Link>
         </div>
         <div className={styles.buttons}>
