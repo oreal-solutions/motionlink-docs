@@ -17,6 +17,14 @@ const config = {
   organizationName: "oreal-solutions", // Usually your GitHub org/user name.
   projectName: "motionlink-cli", // Usually your repo name.
 
+  scripts: [
+    {
+      src: "https://plausible.io/js/script.js",
+      defer: true,
+      "data-domain": "motionlink.co",
+    },
+  ],
+
   customFields: {
     introDocId: "{{{otherData.introDocId}}}",
   },
@@ -42,12 +50,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      gtag: {
-        trackingID: "G-V7RLV8MYRV",
-        // Optional fields.
-        anonymizeIP: true, // Should IPs be anonymized?
-      },
-
       navbar: {
         title: "MotionLink",
         items: [
