@@ -9,7 +9,7 @@ const config = {
   title: "MotionLink",
   tagline:
     "Publish content to your blog, portfolio and doc websites from Notion",
-  url: "https://motionlink.lytowl.com/",
+  url: "https://motionlink.co/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -63,7 +63,7 @@ const config = {
           { to: "/pricing", label: "Pricing", position: "left" },
           { to: "/sites", label: "Websites", position: "left" },
           {
-            href: "https://console.motionlink.lytowl.com/",
+            href: "https://app.motionlink.co/",
             label: "Console",
             position: "right",
           },
@@ -103,7 +103,7 @@ const config = {
               // },
               {
                 label: "Email Us",
-                href: "mailto:products@lytowl.com",
+                href: "mailto:info@motionlink.co",
               },
               {
                 label: "Privacy Policy",
@@ -116,7 +116,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Oreal Solutions.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Lytowl.`,
       },
       prism: {
         theme: lightCodeTheme,
