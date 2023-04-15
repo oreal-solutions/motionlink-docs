@@ -8,14 +8,14 @@ export default function Market() {
   return (
     <Layout
       title={`MotionLink installable sites`}
-      description="RIP to manual configurations. Install websites on Notion with just a click of a button."
+      description="Install websites on Notion with just a click of a button."
       image="img/install-site.png"
     >
       <div className="container">
         <h2>Website installs are now available</h2>
         <p>
           You can now install websites on Notion with MotionLink. Get a website from the{" "}
-          <a href="https://paystack.shop/motionlink-templates" target="_blank">
+          <a href="https://github.com/oreal-solutions/motionlink-websites/blob/main/README.md" target="_blank">
             Template Store
           </a>
           , Install it and manage it from Notion. <Link to="/docs/Installing%20websites" >This tutorial</Link> shows how to install a website.

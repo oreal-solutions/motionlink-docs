@@ -57,7 +57,8 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
+          { to: "/pricing", label: "Pricing", position: "left" },
           { to: "/sites", label: "Websites", position: "left" },
           {
             href: "https://console.motionlink.lytowl.com/",
@@ -81,10 +82,10 @@ const config = {
           {
             title: "Community",
             items: [
-              {
-                label: "Github",
-                href: "https://github.com/oreal-solutions/motionlink-cli/discussions",
-              },
+              // {
+              //   label: "Github",
+              //   href: "https://github.com/oreal-solutions/motionlink-cli/discussions",
+              // },
               {
                 label: "Twitter",
                 href: "https://twitter.com/orealmotionlink",
@@ -94,10 +95,10 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
+              // {
+              //   label: "Blog",
+              //   to: "/blog",
+              // },
               {
                 label: "Email Us",
                 href: "mailto:products@lytowl.com",
