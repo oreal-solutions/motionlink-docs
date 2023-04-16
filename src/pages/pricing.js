@@ -15,7 +15,7 @@ function PlansGrid() {
           </p>
           <Link
             className={`button--secondary ${styles.startPlanButton}`}
-            to="https://console.motionlink.lytowl.com"
+            to="https://app.motionlink.co"
           >
             Get started
           </Link>{" "}
