@@ -19,7 +19,7 @@ const config = {
 
   scripts: [
     {
-      src: "http://motionlink.centralus.cloudapp.azure.com/js/script.js",
+      src: "https://sl.motionlink.co/js/script.js",
       defer: true,
       "data-domain": "motionlink.co",
     },
