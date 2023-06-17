@@ -19,7 +19,7 @@ const config = {
 
   scripts: [
     {
-      src: "https://sl.motionlink.co/js/script.js",
+      src: "https://plausible.io/js/script.js",
       defer: true,
       "data-domain": "motionlink.co",
     },
