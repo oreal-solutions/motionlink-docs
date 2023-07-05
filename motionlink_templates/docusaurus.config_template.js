@@ -9,7 +9,7 @@ const config = {
   title: "MotionLink",
   tagline:
     "Publish content to your blog, portfolio and doc websites from Notion",
-  url: "https://motionlink.co/",
+  url: "https://docs.motionlink.co/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -60,8 +60,8 @@ const config = {
             label: "Tutorial",
           },
           // { to: "/blog", label: "Blog", position: "left" },
-          { to: "/pricing", label: "Pricing", position: "left" },
-          { to: "/sites", label: "Websites", position: "left" },
+          // { to: "/pricing", label: "Pricing", position: "left" },
+          // { to: "/sites", label: "Websites", position: "left" },
           {
             href: "https://app.motionlink.co/",
             label: "Console",
